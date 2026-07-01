@@ -9,8 +9,8 @@ import io
 # ─────────────────────────────────────────────────────────────────
 # CONFIGURACIÓN DATAROBOT
 # ─────────────────────────────────────────────────────────────────
-DATAROBOT_API_KEY      = ""   # ← pega tu API key aquí
-DATAROBOT_DEPLOYMENT_ID = ""  # ← pega tu deployment ID aquí
+DATAROBOT_API_KEY      = "NmEzNGE0ZDE5YWE2YzcyMjBhZWQ4MGE5OklEQlNDa0F1M0JPK3IvdFVQM05pdkZjaTAvV2xWTUpCdVpQMXgyUXpWWXM9"   # ← pega tu API key aquí
+DATAROBOT_DEPLOYMENT_ID = "6a4454a9c96a31caeb714f9b"  # ← pega tu deployment ID aquí
 DATAROBOT_HOST         = "https://app.datarobot.com"
 
 PREDICT_URL = f"{DATAROBOT_HOST}/predApi/v1.0/deployments/{DATAROBOT_DEPLOYMENT_ID}/predictions"
